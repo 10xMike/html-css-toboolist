@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: lightgrey;
+}
+
+header{
+    background-color: white;
+}
+
+.logo-text{
+    font-size: 3em;
+    font-weight: 800;
+    text-align: center;
+}
