@@ -1,6 +1,6 @@
 *{
     margin: 0;
-    padding: 0;
+
 }
 
 body{
@@ -12,6 +12,27 @@ header{
     vertical-align: middle;
 }
 
+#button1{
+    border-radius: 10%;
+    padding: 15px;
+    width: 40px;
+    border-width: 1px;
+    background-color: lightskyblue;
+    color: white;
+}
+#button2{
+    border-radius: 10%;
+    padding: 15px;
+    width: 40px;
+    border-width: 1px;
+    background-color: white;
+    color: gray;
+    border: 1px solid gray;
+}
+
+hr{
+    margin-top: 30px;
+}
 
 h1 {
     display: inline-block;
@@ -22,10 +43,38 @@ h1 {
     font-family: sans-serif;
 }
   
+.greenlight::before{
+    content: ' \2714';
+    display: inline-block;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    border: 1px solid lightgreen;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 30px;
+    margin-right: 20px;
+    color: lightgreen;
+}
+
+.redlight::before{
+    content: ' \2718';
+    display: inline-block;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    border: 1px solid red;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 30px;
+    margin-right: 20px;
+    color: red;
+}
+
   .container {
     width: 70%;
     height: 70%;
-    padding: 10px;
+    padding: 50px;
     background-color: black;
     border-radius: 10px;
     background: white;
@@ -40,4 +89,16 @@ h1 {
   .activity{
       display: block;
       font-size: 2em;
+  }
+
+  .label{
+      background-color: rgb(11, 137, 255);
+      padding: 10px;
+      border-radius: 15%;
+      color: white;
+  }
+
+  p{
+      padding: 5px 0;
+
   }
