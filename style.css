@@ -11,8 +11,28 @@ header{
     background-color: white;
 }
 
-.logo-text{
+h1 {
+    display: inline-block;
     font-size: 3em;
-    font-weight: 800;
-    text-align: center;
+    font-weight: bold;
 }
+  
+  .container {
+    width: 70%;
+    height: 70%;
+    padding: 10px;
+    background-color: black;
+    border-radius: 10px;
+    background: white;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+  }
+
+  .activity{
+      display: block;
+      font-size: 2em;
+  }
