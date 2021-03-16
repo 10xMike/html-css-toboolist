@@ -9,12 +9,17 @@ body{
 
 header{
     background-color: white;
+    vertical-align: middle;
 }
+
 
 h1 {
     display: inline-block;
-    font-size: 3em;
-    font-weight: bold;
+    font-size: 2.7em;
+    font-weight: 700;
+    line-height: 80px;
+    height:80px;
+    font-family: sans-serif;
 }
   
   .container {
